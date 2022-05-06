@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Your Book Store</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: gray;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">YourBookStore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Books
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/educational.html">Educational</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/biography.html">Biography</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/novels.html">Novels</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/comics.html">Comics</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search your books here!"
+                        aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+
+                <a class="btn btn-info mx-1" href="/login.html" role="button">Login</a>
+                <a class="btn btn-info mx-1" href="/signup.html" role="button">Signup</a>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <h1 class="text-center my-2">
+        Novels
+    </h1>
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="western-tab" data-bs-toggle="tab" data-bs-target="#western" type="button" role="tab" aria-controls="western" aria-selected="true">Western</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="asian-tab" data-bs-toggle="tab" data-bs-target="#asian" type="button" role="tab" aria-controls="asian" aria-selected="false">Asian</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="western" role="tabpanel" aria-labelledby="western-tab">
+            <div class="container my-3">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/41Md9o994HL._SX330_BO1,204,203,200_.jpg" alt="The_wheel_of_time.jpg"></img>
+                        <div class="card-body">
+                          <p class="card-text">"The Wheel of Time" was a series of book written by American author Robert Jordan and Brandon Sanderson as a co-author for the final three novels.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                            <img src="https://seller.shoponn.in/Item/The%20Case%20Book%20of%20Sherlock%20Holmes%20266837A.jpg" alt="Sherlock_Holmes.jpg">            
+                        <div class="card-body">
+                          <p class="card-text">Sherlock Holmes.. The most famous detective known for his fight and constant passion to his work. This is the last edition of the series published.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoboxRUMTsmUrSUj2XahW4R-FwnPzZP9ttiA&usqp=CAU" alt="">
+                        <div class="card-body">
+                          <p class="card-text">The greatest among the Fantasy categories and the most heroic and advententurous journey liked by kids in the 90s era.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://pictures.abebooks.com/inventory/md/md31109566770.jpg" alt="Dark_matter.jpg">
+                        <div class="card-body">
+                          <p class="card-text">"Brilliant. A book to remember." and what not people have told about this fabulous book. DARK MATTER.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://booksyaari.com/media/catalog/product/cache/1/thumbnail/300x/17f82f742ffe127f42dca9de82fb58b1/t/h/the_voyage_of_the_dawn_treader.jpeg" alt="chronicles_of_narnia.jpeg">
+                        <div class="card-body">
+                          <p class="card-text">The one of the baddest advententurer and surprising journey. The chronicles of Narnia: the voyage of the dawn treaders edition.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://pictures.abebooks.com/inventory/md/md31111719543.jpg" alt="The_golden_compass.jpg">
+                        <div class="card-body">
+                          <p class="card-text">A story of a Bear and a kid who went through snowstorm and many unknown problems make sure you leave a review after reading.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="asian" role="tabpanel" aria-labelledby="asian-tab">
+            <div class="container my-3">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://m.media-amazon.com/images/I/419gU6yIJtL.jpg" alt="The_true_martial_world.jpg">
+                        <div class="card-body">
+                          <p class="card-text">The ferocios battle between the Human Emperors and the demon king and a fearless warrior among his fellow 33 skies.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                        <div class="card-body">
+                          <p class="card-text">A land filled with alluring treasures and beauty, yet also filled with unforeseen danger. Three years ago, Xiao Yan, who had shown talents none.. Make sure you do read about it.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://img.webnovel.com/bookcover/6838665602002005/600/600.jpg?coverUpdateTime=1548740905890&imageMogr2/quality/40" alt="thumbnail">
+                        <div class="card-body">
+                          <p class="card-text">In this magic world, knowledge is power.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="https://i0.wp.com/certifiednoonas.com/wp-content/uploads/2021/07/solo-leveling.jpg?resize=352%2C550&ssl=1" alt="solo_leveling.jpg">
+                        <div class="card-body">
+                          <p class="card-text">BASED ON THE HIT FANTASY NOVEL, EXPERIENCE THE WEBCOMIC THAT''S CAPTURED THE ATTENTION OF MILLIONS IN ALL OF ITS FULL-COLOR GLORY!</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+
+    <div class="container">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-book-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                        </svg>
+                    </a>
+                    <span class="text-muted">© 2022 YourBookStore Co.</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="https://instagram.com/smeettttt"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="https://facebook.com/smeettt"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg></a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
